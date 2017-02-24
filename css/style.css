@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei UI";
+}
+main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.body {
+
+}
+.body > canvas {
+    box-shadow: -1px -1px 1px rgb(200,200,200),3px 3px 3px rgb(200,200,200);
+}
+.rank-list {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.rank-list th,
+.rank-list td {
+    text-align: center;
+    padding: 5px 10px;
+}
+.game-control {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.game-control button {
+    margin: 5px 0;
+    border: none;
+    padding: 10px 15px;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+.game-control button:hover {
+    color: #fff;
+    background-color: rgb(111,111,111);
+}
